@@ -3,27 +3,21 @@ Machine Learning analysis identifying high-value customer segments and predictin
 
 🎯 ShopNow Purchase Prediction: Strategic ML Analysis
 This project uses an Interactive Machine Learning Workbench to predict customer purchase behavior over a 30-day window. By comparing multiple modeling architectures, I developed a strategy to reduce churn and maximize revenue lift for the ShopNow platform.
-+4
 
 💰 Business Impact & ROI
 Rather than focusing solely on technical accuracy, I prioritized economic lift by implementing a custom cost-benefit matrix:
-+2
 
 
 False Positive (FP) Cost: -$5 (Cost of unnecessary promotion).
-+1
 
 
 False Negative (FN) Cost: -$10 (Opportunity cost of a missed sale).
-+1
 
 
 Winning Model: XGBoost.
-+1
 
 
 Total Lift: Achieved a $1,115 improvement over the baseline "do-nothing" strategy.
-+1
 
 🛠️ Methodology & Technical Approach
 
@@ -31,26 +25,21 @@ Data Preparation: Cleaned the ShopNow dataset by removing non-predictive feature
 
 
 Model Comparison: Evaluated four distinct algorithms—Ridge, Lasso, Random Forest, and XGBoost—using an 80/20 train/test split to ensure the model captured complex, non-linear patterns in the data.
-+2
 
 
 Optimization: While XGBoost had lower precision, it achieved the highest Recall, successfully identifying the largest number of actual buyers to maximize total value.
-+1
 
 📈 Strategic Insights
 The model identified the following key drivers for customer conversion:
 
 
 Recency: The number of days since the last purchase is the strongest predictor of future activity.
-+2
 
 
 Average Order Value: Spending habits significantly influence the 30-day purchase likelihood.
-+2
 
 
 High-Frequency Categories: Apparel, Sports, and Groceries show higher predictive power for recurring sales.
-+1
 
 💡 Recommendations
 Target customers at the 20-day "no-purchase" mark with personalized promotions in high-frequency categories to prevent churn.
