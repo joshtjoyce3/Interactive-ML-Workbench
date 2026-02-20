@@ -4,7 +4,12 @@ Machine Learning analysis identifying high-value customer segments and predictin
 🎯 ShopNow Purchase Prediction: Strategic ML Analysis
 This project uses an Interactive Machine Learning Workbench to predict customer purchase behavior over a 30-day window. By comparing multiple modeling architectures, I developed a strategy to reduce churn and maximize revenue lift for the ShopNow platform.
 
-💰 Business Impact & ROI
+---
+### 📊 [View Interactive Analysis Results Here](https://htmlpreview.github.io/?https://github.com/joshtjoyce3/Interactive-ML-Workbench/blob/main/ShopNow_Results.html)
+*Note: Use the link above to view the fully rendered notebook with all charts, metrics, and data visualizations.*
+---
+
+#### 💰 Business Impact & ROI
 Rather than focusing solely on technical accuracy, I prioritized economic lift by implementing a custom cost-benefit matrix:
 
 
@@ -19,7 +24,7 @@ Winning Model: XGBoost.
 
 Total Lift: Achieved a $1,115 improvement over the baseline "do-nothing" strategy.
 
-🛠️ Methodology & Technical Approach
+#### 🛠️ Methodology & Technical Approach
 
 Data Preparation: Cleaned the ShopNow dataset by removing non-predictive features and handling outliers using a Clip IQR strategy to prevent overfitting.
 
@@ -29,7 +34,7 @@ Model Comparison: Evaluated four distinct algorithms—Ridge, Lasso, Random Fore
 
 Optimization: While XGBoost had lower precision, it achieved the highest Recall, successfully identifying the largest number of actual buyers to maximize total value.
 
-📈 Strategic Insights
+#### 📈 Strategic Insights
 The model identified the following key drivers for customer conversion:
 
 
@@ -41,12 +46,12 @@ Average Order Value: Spending habits significantly influence the 30-day purchase
 
 High-Frequency Categories: Apparel, Sports, and Groceries show higher predictive power for recurring sales.
 
-💡 Recommendations
+#### 💡 Recommendations
 Target customers at the 20-day "no-purchase" mark with personalized promotions in high-frequency categories to prevent churn.
 
 Implement a loyalty program for high-spenders to leverage the influence of average order value on retention.
 
-**Note: Project Ownership & Attribution**
+### 📝 Project Ownership & Attribution
 
 Framework: The underlying interactive GUI and data-loading wrapper were provided by the University of Illinois MBA program.
 
