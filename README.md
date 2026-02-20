@@ -46,4 +46,16 @@ Target customers at the 20-day "no-purchase" mark with personalized promotions i
 
 Implement a loyalty program for high-spenders to leverage the influence of average order value on retention.
 
-Note: The interactive GUI framework was provided as part of an MBA coursework assignment. All data analysis, feature engineering, model selection, and financial impact calculations are my original work.
+**Note: Project Ownership & Attribution**
+
+Framework: The underlying interactive GUI and data-loading wrapper were provided by the University of Illinois MBA program.
+
+My Original Work: I am responsible for the end-to-end data science lifecycle within this workbench, including:
+
+Exploratory Data Analysis (EDA): Identifying the "Recency" and "Frequency" trends.
+
+Feature Engineering: Implementing the Clip IQR strategy for outlier management.
+
+Model Strategy: Selection and tuning of the XGBoost, Ridge, and Lasso architectures.
+
+Business Logic: Designing the custom Cost-Benefit Matrix to calculate the $1,115 economic lift.
